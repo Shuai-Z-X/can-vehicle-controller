@@ -1,0 +1,59 @@
+{
+  "version": "0.1",
+  "dids": [
+    {
+      "did": "0xF186",
+      "name": "ActiveDiagnosticSession",
+      "access": "read",
+      "size": 1,
+      "encoding": "uint8",
+      "values": {
+        "0x01": "default",
+        "0x03": "extended"
+      }
+    },
+    {
+      "did": "0x1234",
+      "name": "FirmwareVersion",
+      "access": "read",
+      "size": 4,
+      "encoding": "uint32_be",
+      "example": "0x00010000"
+    },
+    {
+      "did": "0x1235",
+      "name": "RuntimeStatus",
+      "access": "read",
+      "size": 6,
+      "encoding": "mode:u8,speed:u16le:0.1,voltage:u16le:0.01,fault:u8"
+    },
+    {
+      "did": "0x1236",
+      "name": "DtcCount",
+      "access": "read",
+      "size": 1,
+      "encoding": "uint8"
+    },
+    {
+      "did": "0x1237",
+      "name": "CanStatistics",
+      "access": "read",
+      "size": 4,
+      "encoding": "tx_err:u8,rx_err:u8,busoff:u16le"
+    }
+  ],
+  "write_dids": [
+    {
+      "did": "0x1238",
+      "name": "TestCommand",
+      "access": "write",
+      "size": 1,
+      "encoding": "uint8",
+      "values": {
+        "0x00": "clear_stats",
+        "0x01": "inject_can_timeout",
+        "0x02": "inject_sensor_range"
+      }
+    }
+  ]
+}

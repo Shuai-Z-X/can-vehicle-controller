@@ -1,0 +1,66 @@
+{
+  "version": "0.1",
+  "frames": [
+    {
+      "name": "VCU_Status",
+      "id": "0x100",
+      "data": "02 7B 00 92 09 00 05 05",
+      "decoded": {
+        "VehMode": 2,
+        "VehSpeed": 12.3,
+        "BatteryVoltage": 24.5,
+        "FaultCanTimeout": 0,
+        "FaultSensorRange": 0,
+        "FaultActuator": 0,
+        "FaultOverVoltage": 0,
+        "FaultUnderVoltage": 0,
+        "FaultReserved": 0,
+        "VCUStatusCounter": 5,
+        "VCUStatusChecksum": 5
+      }
+    },
+    {
+      "name": "VCU_Status",
+      "id": "0x100",
+      "data": "03 00 00 92 09 01 06 21",
+      "decoded": {
+        "VehMode": 3,
+        "VehSpeed": 0,
+        "BatteryVoltage": 24.5,
+        "FaultCanTimeout": 1,
+        "FaultSensorRange": 0,
+        "FaultActuator": 0,
+        "FaultOverVoltage": 0,
+        "FaultUnderVoltage": 0,
+        "FaultReserved": 0,
+        "VCUStatusCounter": 6,
+        "VCUStatusChecksum": 33
+      }
+    },
+    {
+      "name": "Actuator_Status",
+      "id": "0x101",
+      "data": "02 F4 01 7D 00 55 07 D4",
+      "decoded": {
+        "ActuatorMode": 2,
+        "ActuatorOutput": 50.0,
+        "MotorCurrent": 1.25,
+        "Temperature": 45,
+        "ActuatorStatusCounter": 7,
+        "ActuatorStatusChecksum": 212
+      }
+    },
+    {
+      "name": "Control_Cmd",
+      "id": "0x200",
+      "data": "02 2C 01 00 00 00 09 34",
+      "decoded": {
+        "CmdMode": 2,
+        "TargetOutput": 30.0,
+        "CmdReserved": 0,
+        "CmdCounter": 9,
+        "CmdChecksum": 52
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": "0.1",
+  "dtcs": [
+    {
+      "code": "0xC10000",
+      "name": "CanTimeout",
+      "severity": "high",
+      "trigger": "Expected CAN message not received before timeout"
+    },
+    {
+      "code": "0xC10001",
+      "name": "SensorOutOfRange",
+      "severity": "medium",
+      "trigger": "Sensor value outside valid range"
+    },
+    {
+      "code": "0xC10002",
+      "name": "ActuatorFault",
+      "severity": "high",
+      "trigger": "Actuator status reports fault"
+    }
+  ],
+  "status_bits": {
+    "0x01": "testFailed",
+    "0x02": "testFailedThisOperationCycle",
+    "0x04": "pendingDTC",
+    "0x08": "confirmedDTC",
+    "0x10": "testNotCompletedSinceLastClear",
+    "0x20": "testFailedSinceLastClear",
+    "0x40": "testNotCompletedThisOperationCycle",
+    "0x80": "warningIndicatorRequested"
+  }
+}
