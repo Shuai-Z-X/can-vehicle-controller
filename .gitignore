@@ -1,0 +1,10 @@
+build/
+logs/
+.venv/
+__pycache__/
+.vscode/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
