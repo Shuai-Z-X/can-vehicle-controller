@@ -11,6 +11,8 @@
 "node_b_actuator_f103\stm32f1xx_it.o"
 "node_b_actuator_f103\stm32f1xx_hal_msp.o"
 "node_b_actuator_f103\stm32f1xx_hal_timebase_tim.o"
+"node_b_actuator_f103\app_can.o"
+"node_b_actuator_f103\can_protocol.o"
 "node_b_actuator_f103\stm32f1xx_hal_gpio_ex.o"
 "node_b_actuator_f103\stm32f1xx_hal_can.o"
 "node_b_actuator_f103\stm32f1xx_hal.o"

@@ -27,7 +27,7 @@
  * 接真实 CAN 总线时改成 0，并把 .ioc 里的 CAN 改成 Normal。
  */
 #ifndef CAN_SELFTEST_FORCE_LOOPBACK
-#define CAN_SELFTEST_FORCE_LOOPBACK 1
+#define CAN_SELFTEST_FORCE_LOOPBACK 0
 #endif
 
 static void can_selftest_print(const char *text)

@@ -1,8 +1,10 @@
 --cpu=Cortex-M4.fp.sp
 "node_a_vcu_f407\startup_stm32f407xx.o"
+"node_a_vcu_f407\app_can_selftest.o"
+"node_a_vcu_f407\app_can.o"
+"node_a_vcu_f407\can_protocol.o"
 "node_a_vcu_f407\main.o"
 "node_a_vcu_f407\gpio.o"
-"node_a_vcu_f407\app_can_selftest.o"
 "node_a_vcu_f407\freertos.o"
 "node_a_vcu_f407\can.o"
 "node_a_vcu_f407\usart.o"

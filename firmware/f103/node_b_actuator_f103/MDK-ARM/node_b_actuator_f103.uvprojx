@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\Drivers\BSP\OLED</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\Drivers\BSP\OLED;..\..\..\comm</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -458,6 +458,26 @@
               <FileName>FreeRTOSConfig.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Core\Inc\FreeRTOSConfig.h</FilePath>
+            </File>
+            <File>
+              <FileName>app_can.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\app_can.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_can.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Core\Inc\app_can.h</FilePath>
+            </File>
+            <File>
+              <FileName>can_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\comm\can_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>can_protocol.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\comm\can_protocol.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -41,3 +41,4 @@ node_b_actuator_f103\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_h
 node_b_actuator_f103\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 node_b_actuator_f103\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 node_b_actuator_f103\freertos.o: ../Core/Inc/app_can_selftest.h
+node_b_actuator_f103\freertos.o: ../Core/Inc/app_can.h

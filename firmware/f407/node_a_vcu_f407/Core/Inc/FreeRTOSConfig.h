@@ -52,9 +52,10 @@
   #include <stdint.h>
   extern uint32_t SystemCoreClock;
 #endif
-#ifndef CMSIS_device_header
+#ifdef CMSIS_device_header
+#undef CMSIS_device_header
+#endif
 #define CMSIS_device_header "stm32f4xx.h"
-#endif /* CMSIS_device_header */
 
 #define configENABLE_FPU                         0
 #define configENABLE_MPU                         0
@@ -120,6 +121,7 @@ to exclude the API function. */
 #define INCLUDE_xQueueGetMutexHolder         1
 #define INCLUDE_uxTaskGetStackHighWaterMark  1
 #define INCLUDE_xTaskGetCurrentTaskHandle    1
+#define INCLUDE_xSemaphoreGetMutexHolder     1
 #define INCLUDE_eTaskGetState                1
 
 /*

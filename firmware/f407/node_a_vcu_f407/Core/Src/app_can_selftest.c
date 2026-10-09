@@ -28,7 +28,7 @@
  * 否则自检任务会强制 CAN 回到 Loopback，导致真实总线不能通信。
  */
 #ifndef CAN_SELFTEST_FORCE_LOOPBACK
-#define CAN_SELFTEST_FORCE_LOOPBACK 1
+#define CAN_SELFTEST_FORCE_LOOPBACK 0
 #endif
 
 static void can_selftest_print(const char *text)
