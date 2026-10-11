@@ -8,3 +8,19 @@ __pycache__/
 *.bin
 *.hex
 *.map
+
+# ---- Keil MDK / uVision 构建产物 ----
+# 说明：工程文件（*.uvprojx / *.uvoptx）、启动文件（startup_*.s）、
+# RTE/ 与 DebugConfig/ 是构建必需的，必须保留在版本库里，不要忽略。
+*.crf
+*.d
+*.dep
+*.axf
+*.lnp
+*.lst
+*.sct
+*.iex
+*.htm
+*.uvguix.*
+Objects/
+Listings/
