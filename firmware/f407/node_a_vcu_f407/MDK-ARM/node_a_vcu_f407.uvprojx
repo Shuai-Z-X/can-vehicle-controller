@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../../../comm</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../../../comm;..\Drivers\BSP\OLED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -440,6 +440,16 @@
               <FilePath>..\Core\Inc\app_can.h</FilePath>
             </File>
             <File>
+              <FileName>app_slcan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\app_slcan.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_slcan.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Core\Inc\app_slcan.h</FilePath>
+            </File>
+            <File>
               <FileName>can_protocol.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\comm\can_protocol.c</FilePath>
@@ -488,6 +498,26 @@
               <FileName>stm32f4xx_hal_timebase_tim.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_timebase_tim.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Drivers/BSP/OLED</GroupName>
+          <Files>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\BSP\OLED\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\BSP\OLED\oled.h</FilePath>
+            </File>
+            <File>
+              <FileName>OLED_Font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\BSP\OLED\OLED_Font.h</FilePath>
             </File>
           </Files>
         </Group>

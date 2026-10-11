@@ -1,5 +1,6 @@
 node_b_actuator_f103\app_can.o: ..\Core\Src\app_can.c
 node_b_actuator_f103\app_can.o: ../Core/Inc/app_can.h
+node_b_actuator_f103\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 node_b_actuator_f103\app_can.o: ../Core/Inc/can.h
 node_b_actuator_f103\app_can.o: ../Core/Inc/main.h
 node_b_actuator_f103\app_can.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
@@ -9,7 +10,6 @@ node_b_actuator_f103\app_can.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ha
 node_b_actuator_f103\app_can.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 node_b_actuator_f103\app_can.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
 node_b_actuator_f103\app_can.o: ../Drivers/CMSIS/Include/core_cm3.h
-node_b_actuator_f103\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 node_b_actuator_f103\app_can.o: ../Drivers/CMSIS/Include/cmsis_version.h
 node_b_actuator_f103\app_can.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 node_b_actuator_f103\app_can.o: ../Drivers/CMSIS/Include/cmsis_armcc.h

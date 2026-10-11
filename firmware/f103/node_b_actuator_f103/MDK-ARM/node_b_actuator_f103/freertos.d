@@ -42,3 +42,10 @@ node_b_actuator_f103\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSI
 node_b_actuator_f103\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 node_b_actuator_f103\freertos.o: ../Core/Inc/app_can_selftest.h
 node_b_actuator_f103\freertos.o: ../Core/Inc/app_can.h
+node_b_actuator_f103\freertos.o: ../Core/Inc/app_motor.h
+node_b_actuator_f103\freertos.o: ..\Drivers\BSP\ZDT\bsp_zdt_motor.h
+node_b_actuator_f103\freertos.o: ../Core/Inc/usart.h
+node_b_actuator_f103\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+node_b_actuator_f103\freertos.o: ..\Drivers\BSP\OLED\oled.h
+node_b_actuator_f103\freertos.o: ../Core/Inc/gpio.h
+node_b_actuator_f103\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

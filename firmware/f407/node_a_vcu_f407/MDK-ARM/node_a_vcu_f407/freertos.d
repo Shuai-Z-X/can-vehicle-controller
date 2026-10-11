@@ -44,3 +44,9 @@ node_a_vcu_f407\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ua
 node_a_vcu_f407\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 node_a_vcu_f407\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 node_a_vcu_f407\freertos.o: ../Core/Inc/app_can.h
+node_a_vcu_f407\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+node_a_vcu_f407\freertos.o: ../Core/Inc/app_slcan.h
+node_a_vcu_f407\freertos.o: ..\Drivers\BSP\OLED\oled.h
+node_a_vcu_f407\freertos.o: ../Core/Inc/gpio.h
+node_a_vcu_f407\freertos.o: ../Core/Inc/usart.h
+node_a_vcu_f407\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

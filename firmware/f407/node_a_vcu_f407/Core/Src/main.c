@@ -92,6 +92,7 @@ int main(void)
   MX_GPIO_Init();
   MX_CAN1_Init();
   MX_USART1_UART_Init();
+  MX_USART2_UART_Init();      /* USART2 给 SLCAN 网关用（PA2/PA3） */
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */

@@ -1,5 +1,7 @@
 node_a_vcu_f407\app_can.o: ..\Core\Src\app_can.c
 node_a_vcu_f407\app_can.o: ../Core/Inc/app_can.h
+node_a_vcu_f407\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+node_a_vcu_f407\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 node_a_vcu_f407\app_can.o: ../Core/Inc/can.h
 node_a_vcu_f407\app_can.o: ../Core/Inc/main.h
 node_a_vcu_f407\app_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
@@ -9,7 +11,6 @@ node_a_vcu_f407\app_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def
 node_a_vcu_f407\app_can.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 node_a_vcu_f407\app_can.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 node_a_vcu_f407\app_can.o: ../Drivers/CMSIS/Include/core_cm4.h
-node_a_vcu_f407\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 node_a_vcu_f407\app_can.o: ../Drivers/CMSIS/Include/cmsis_version.h
 node_a_vcu_f407\app_can.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 node_a_vcu_f407\app_can.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -47,5 +48,4 @@ node_a_vcu_f407\app_can.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/ta
 node_a_vcu_f407\app_can.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 node_a_vcu_f407\app_can.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 node_a_vcu_f407\app_can.o: ../../../comm/can_protocol.h
-node_a_vcu_f407\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 node_a_vcu_f407\app_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

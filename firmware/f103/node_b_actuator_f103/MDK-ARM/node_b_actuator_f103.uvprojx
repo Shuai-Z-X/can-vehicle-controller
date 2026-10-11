@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\Drivers\BSP\OLED;..\..\..\comm</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\Drivers\BSP\OLED;..\Drivers\BSP\ZDT;..\..\..\comm</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -420,6 +420,26 @@
               <FilePath>..\Drivers\BSP\OLED\oled.c</FilePath>
             </File>
             <File>
+              <FileName>app_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/app_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_zdt_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\BSP\ZDT\bsp_zdt_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../Core/Inc/app_motor.h</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_zdt_motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\BSP\ZDT\bsp_zdt_motor.h</FilePath>
+            </File>
+            <File>
               <FileName>can.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/can.c</FilePath>
@@ -478,6 +498,11 @@
               <FileName>can_protocol.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\..\comm\can_protocol.h</FilePath>
+            </File>
+            <File>
+              <FileName>oled.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Drivers\BSP\OLED\oled.h</FilePath>
             </File>
           </Files>
         </Group>

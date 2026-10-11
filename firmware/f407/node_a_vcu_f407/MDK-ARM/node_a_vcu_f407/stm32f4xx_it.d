@@ -33,3 +33,4 @@ node_a_vcu_f407\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha
 node_a_vcu_f407\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 node_a_vcu_f407\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 node_a_vcu_f407\stm32f4xx_it.o: ../Core/Inc/stm32f4xx_it.h
+node_a_vcu_f407\stm32f4xx_it.o: ../Core/Inc/usart.h
